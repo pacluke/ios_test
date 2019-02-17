@@ -7,6 +7,11 @@ target 'ios_test' do
 
   # Pods for ios_test
 
+  pod 'Alamofire', '~> 4.7'
+  pod 'Kingfisher', '~> 5.0'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'SwiftOverlays', '~> 5.0.1'
+
   target 'ios_testTests' do
     inherit! :search_paths
     # Pods for testing
