@@ -11,6 +11,8 @@ target 'ios_test' do
   pod 'Kingfisher', '~> 5.0'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'SwiftOverlays', '~> 5.0.1'
+  pod 'Moscapsule', :git => 'https://github.com/flightonary/Moscapsule.git'
+  pod 'OpenSSL-Universal'
 
   target 'ios_testTests' do
     inherit! :search_paths

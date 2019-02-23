@@ -1,12 +1,16 @@
 PODS:
   - Alamofire (4.8.1)
   - Kingfisher (5.1.0)
+  - Moscapsule (0.6.2)
+  - OpenSSL-Universal (1.0.2.13)
   - SwiftOverlays (5.0.1)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - Kingfisher (~> 5.0)
+  - Moscapsule (from `https://github.com/flightonary/Moscapsule.git`)
+  - OpenSSL-Universal
   - SwiftOverlays (~> 5.0.1)
   - SwiftyJSON (~> 4.0)
 
@@ -14,15 +18,27 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Kingfisher
+    - OpenSSL-Universal
     - SwiftOverlays
     - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Moscapsule:
+    :git: https://github.com/flightonary/Moscapsule.git
+
+CHECKOUT OPTIONS:
+  Moscapsule:
+    :commit: bd40e53e7153f3d3775f3727296640e7415fde93
+    :git: https://github.com/flightonary/Moscapsule.git
 
 SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Kingfisher: fcec238063d17404fca89bf0a850583211c4cbf6
+  Moscapsule: dbf891e0a6b75cbe63c98d9bdbbad6ff4aaf00e6
+  OpenSSL-Universal: 401888162f11c33ebbd46f782d9229da35c61327
   SwiftOverlays: ab459ea9194b0e96aaccaa00e9ead1bf6d46eef1
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: f31a79c2df8cbe85305ea4ac14760c3fd949e7e0
+PODFILE CHECKSUM: 4df93a9fe2402f2cac4450b4c654bcf2db951115
 
 COCOAPODS: 1.5.3

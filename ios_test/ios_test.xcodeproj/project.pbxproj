@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		85000CC872758758F3012422 /* Pods_ios_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4F7B639EA138F501DE5E5C /* Pods_ios_testTests.framework */; };
 		BCF6B99BC97A483AE36101E3 /* Pods_ios_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CB70C2E644A702BFC2BA82 /* Pods_ios_test.framework */; };
+		C183E7B5221CC26400545995 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E7B4221CC26400545995 /* Service.swift */; };
 		C1B7F0B42219BAA900A83BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B7F0B32219BAA900A83BAC /* AppDelegate.swift */; };
 		C1B7F0B62219BAA900A83BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B7F0B52219BAA900A83BAC /* ViewController.swift */; };
 		C1B7F0B92219BAA900A83BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B7F0B72219BAA900A83BAC /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		7ECC61CC2A4613FFA070BDEF /* Pods-ios_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_testTests/Pods-ios_testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C4F7B639EA138F501DE5E5C /* Pods_ios_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20DC5D3EC59D8596BA570F3 /* Pods-ios_testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_testUITests/Pods-ios_testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C183E7B4221CC26400545995 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		C1B7F0B02219BAA900A83BAC /* ios_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B7F0B32219BAA900A83BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1B7F0B52219BAA900A83BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				C1B7F0B32219BAA900A83BAC /* AppDelegate.swift */,
 				C1B7F0B52219BAA900A83BAC /* ViewController.swift */,
+				C183E7B4221CC26400545995 /* Service.swift */,
 				C1B7F0B72219BAA900A83BAC /* Main.storyboard */,
 				C1B7F0BA2219BAAA00A83BAC /* Assets.xcassets */,
 				C1B7F0BC2219BAAA00A83BAC /* LaunchScreen.storyboard */,
@@ -307,6 +310,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ios_test/Pods-ios_test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moscapsule/Moscapsule.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftOverlays/SwiftOverlays.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -316,6 +320,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moscapsule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOverlays.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -399,6 +404,7 @@
 			files = (
 				C1B7F0B62219BAA900A83BAC /* ViewController.swift in Sources */,
 				C1B7F0B42219BAA900A83BAC /* AppDelegate.swift in Sources */,
+				C183E7B5221CC26400545995 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
